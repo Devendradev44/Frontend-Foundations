@@ -23,3 +23,241 @@ Day - 01
 
 </body>
 </html>
+
+
+
+
+unit 1:-
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML Practice Tasks</title>
+  <style>
+    /* Common styles for demonstration */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Task 1: Display simple message with green text and yellow background -->
+  <h2>Task 1</h2>
+  <p style="color: green; background-color: yellow;">This is a simple message.</p>
+
+  <!-- Task 2: Display message with different heading styles -->
+  <h2>Task 2</h2>
+  <h1>This is Heading 1</h1>
+  <h2>This is Heading 2</h2>
+  <h3>This is Heading 3</h3>
+  <h4>This is Heading 4</h4>
+  <h5>This is Heading 5</h5>
+  <h6>This is Heading 6</h6>
+
+  <!-- Task 3: Display background image -->
+  <h2>Task 3</h2>
+  <div style="background-image: url('background.jpg'); background-size: cover; padding: 40px; color: white;">
+    This webpage displays a background image.
+  </div>
+
+  <!-- Task 4: Display paragraph with Courier New font, blue color, and size 12 -->
+  <h2>Task 4</h2>
+  <p style="font-family: 'Courier New'; color: blue; font-size: 12px;">
+    This paragraph uses Courier New font, blue color, and font size 12px.
+  </p>
+
+  <!-- Task 5: Center text using style tag -->
+  <h2>Task 5</h2>
+  <style>
+    .center-text {
+      text-align: center;
+    }
+  </style>
+  <p class="center-text">This text is centered using the style tag.</p>
+
+  <!-- Task 6: Display algebraic expression x² + y⁴ + z³ -->
+  <h2>Task 6</h2>
+  <p>x<sup>2</sup> + y<sup>4</sup> + z<sup>3</sup></p>
+
+  <!-- Task 7: Display 4 paragraphs with different colors and fonts -->
+  <h2>Task 7</h2>
+  <p style="color: red; font-family: Arial;">This is paragraph one.</p>
+  <p style="color: blue; font-family: Verdana;">This is paragraph two.</p>
+  <p style="color: green; font-family: 'Courier New';">This is paragraph three.</p>
+  <p style="color: purple; font-family: 'Times New Roman';">This is paragraph four.</p>
+
+  <!-- Task 8: Display background image and justified paragraph -->
+  <h2>Task 8</h2>
+  <div style="background-image: url('background2.jpg'); background-size: cover; padding: 20px;">
+    <p style="text-align: justify; color: white;">
+      This paragraph has a justified alignment and is displayed over a background image.
+      You can replace the image URL with your own image to see the effect clearly.
+    </p>
+  </div>
+
+  <!-- Task 9: Display background image using style attribute -->
+  <h2>Task 9</h2>
+  <body style="background-image: url('background3.jpg'); background-size: cover;">
+    <p style="color: white;">This webpage uses the style attribute to set a background image.</p>
+  </body>
+
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML Practical Tasks</title>
+  <style>
+    /* Common styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    .resume {
+      border: 2px solid black;
+      padding: 20px;
+      background-color: #f0f0f0;
+    }
+
+    .blue-bg { background-color: lightblue; }
+    .green-bg { background-color: lightgreen; }
+    .block {
+      border: 1px solid black;
+      padding: 10px;
+      margin: 5px;
+    }
+
+    .multi1 {
+      background-color: lavender;
+      color: darkblue;
+      padding: 10px;
+    }
+
+    .multi2 {
+      font-weight: bold;
+      border: 1px solid gray;
+      padding: 10px;
+    }
+
+    .red-block {
+      background-color: #ffcccc;
+      padding: 20px;
+    }
+
+    .yellow-block {
+      background-color: #fff7a0;
+      padding: 20px;
+    }
+
+    .styled1 { background-color: pink; border: 2px solid red; padding: 10px; }
+    .styled2 { background-color: lightgreen; border: 2px dashed blue; padding: 10px; }
+    .styled3 { background-color: lightyellow; border: 2px dotted purple; padding: 10px; }
+    .styled4 { background-color: lightgray; border: 2px double black; padding: 10px; }
+
+  </style>
+</head>
+<body>
+
+  <!-- Resume Page -->
+  <h2>Resume</h2>
+  <div class="resume">
+    <h3>John Doe</h3>
+    <p>Email: johndoe@example.com</p>
+    <p>Phone: 9876543210</p>
+    <h4>Objective:</h4>
+    <p>To obtain a challenging position in a reputed organization where I can utilize my skills and grow professionally.</p>
+    <h4>Education:</h4>
+    <ul>
+      <li>B.Tech in Computer Science - XYZ University (2025)</li>
+      <li>Intermediate - ABC Junior College (2021)</li>
+      <li>SSC - Govt High School (2019)</li>
+    </ul>
+    <h4>Skills:</h4>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>Python</li>
+      <li>Communication & Leadership</li>
+    </ul>
+  </div>
+
+  <hr>
+
+  <!-- Unit 2 Level 1 -->
+
+  <h2>Unit 2 - Level 1</h2>
+
+  <!-- 1. Using div tag -->
+  <div>This is text inside a div tag.</div>
+
+  <!-- 2. Using span tag + difference -->
+  <p>This is a <span style="color:red;">span element</span> inside a paragraph.</p>
+  <p><b>Difference:</b> <code>div</code> is a block-level element, while <code>span</code> is inline.</p>
+
+  <!-- 3. Two div tags using classes -->
+  <div class="blue-bg">Div 1 with class "blue-bg"</div>
+  <div class="green-bg">Div 2 with class "green-bg"</div>
+
+  <!-- 4. Two div tags using id -->
+  <div id="firstDiv" style="background-color: pink;">Div 1 using ID</div>
+  <div id="secondDiv" style="background-color: lightgray;">Div 2 using ID</div>
+
+  <!-- 5. Difference between class and id -->
+  <p><b>Difference:</b> A class can be used multiple times, while an ID must be unique per page.</p>
+
+  <!-- 6. Different divs with multiple classes -->
+  <div class="multi1 multi2">This div uses multiple classes.</div>
+
+  <hr>
+
+  <!-- Unit 2 Level 2 -->
+
+  <h2>Unit 2 - Level 2</h2>
+
+  <!-- 1. Background color using class -->
+  <div class="blue-bg">This page has a blue background (via class).</div>
+
+  <!-- 2. Two blocks with different background colors -->
+  <div class="red-block">Block 1 with red background</div>
+  <div class="yellow-block">Block 2 with yellow background</div>
+
+  <!-- 3. Background image using class or id -->
+  <div id="imageBlock" style="background-image: url('background.jpg'); background-size: cover; padding: 30px; color: white;">
+    This div has a background image using ID.
+  </div>
+
+  <!-- 4. Border to data using class or id -->
+  <div class="block">This div has a border using class.</div>
+
+  <hr>
+
+  <!-- Unit 2 Level 3 -->
+
+  <h2>Unit 2 - Level 3</h2>
+  <div class="styled1">Block 1 with pink background and red border</div>
+  <div class="styled2">Block 2 with lightgreen background and dashed blue border</div>
+  <div class="styled3">Block 3 with lightyellow background and dotted purple border</div>
+  <div class="styled4">Block 4 with lightgray background and double black border</div>
+
+  <hr>
+
+  <!-- Text Formatting -->
+  <h2>Text Formatting Example</h2>
+  <center>
+    <p>
+      <b>Bold Text</b> |
+      <i>Italic Text</i> |
+      H<sub>2</sub>O |
+      x<sup>2</sup> + y<sup>3</sup>
+    </p>
+  </center>
+
+</body>
+</html>
