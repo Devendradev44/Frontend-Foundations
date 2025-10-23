@@ -1,0 +1,25 @@
+Day - 01
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Applying HTML and CSS Properties</title>
+</head>
+<body>
+
+  <!-- 1. Apply h1 element to content -->
+  <h1>Hello World</h1>
+
+  <!-- 2. Apply attribute to element -->
+  <h1 title="This is a heading">Hello World with Title Attribute</h1>
+
+  <!-- 3. Apply property using style attribute -->
+  <h1 style="color: blue;">Hello World in Blue</h1>
+
+  <!-- 4. Apply font properties using style attribute -->
+  <h1 style="font-family: Arial; font-size: 40px; font-weight: bold;">Hello World with Font Styles</h1>
+
+  <!-- 5. Apply text-align property using style attribute -->
+  <h1 style="text-align: center;">Hello World Center Aligned</h1>
+
+</body>
+</html>
