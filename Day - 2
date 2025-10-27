@@ -121,3 +121,274 @@ HTML List
 </body>
 </html>
 ```
+
+HTML List 
+
+Here the terms are :
+
+ 1.dl- description list
+2.dt- description term
+
+3.dd- description defintion
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Markup Language Definitions</h1>
+    <dl>
+        <dt>SGML</dt>
+        <dd>Standard Generalized Markup Language</dd>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language</dd>
+        <dd>the markup language used to create web pages</dd>
+        <dt>XML</dt>
+        <dd>eXtensible Markup Language</dd>
+    </dl>
+    </ol>
+</body>
+</html>
+```
+
+HTML List
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <i>Planets of the solar system</i>
+    <dl>
+        <dt>Mercury</dt>
+        <dd>The smallest of the planets and the one nearest the sun, having a sidereal period of revolution about the sun of 88.0 days at a mean distande of 58.3 million kilometers (36.2 million miles) and a mean radius of approximately 2,414 kilometers(1,500 miles)</dd>
+        <dt>Venus</dt>
+        <dd>The second planet from the sun, having an average radius of 6,052 kilometers(3,760 miles), a mass 0.815 times that of Earth, and a sidereal period of revolution about the sun of 224.7 days at a mean distance of approximately 108.1 million kilometers(67.2 million miles)</dd>
+        <dd>the markup language used to create web pages</dd>
+        <dt>Earth</dt>
+        <dd>The third planet from the sun, having a sidereal period of revolution about the sun of 365.26 days at a mean distance of approximately 149 million kilometers (92.96 million miles), an axial rotation period of 23 hours 56.07 minutes, an average radius of 6,374 kilometers(3,959 miles), and a mass of approximately 29.11 x 10^24 kilograms(13.17 x 10^24 pounds)</dd>
+    </dl>
+    </ol>
+</body>
+</html>
+```
+
+List
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>List of Indian states with their capital</h1>
+    <ol>
+        <li>Delhi 
+            <ul>
+                <li>Capital: New Delhi</li>
+            </ul>
+        </li>
+        <li>Haryana
+            <ul>
+                <li>Capital: Chandigarh</li>
+            </ul>
+        </li>
+        <li>Gujarat
+            <ul>
+                <li>Capital: Gandhinagar</li>
+            </ul>
+        </li>
+        <li>Rajasthan
+            <ul>
+                <li>Capital: Jaipur</li>
+            </ul>
+        </li>
+        <li>Maharashtra
+            <ul>
+                <li>Capital: Mumbai</li>
+            </ul>
+        </li>
+        <li>Uttar Pradesh
+            <ul>
+                <li>Capital: Lucknow</li>
+            </ul>
+        </li>
+    </ol>
+</body>
+</html>
+```
+
+List
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML Cooking School</h1>
+    <h2>Recipes</h2>
+    <p>Since this is an HMTL tutorial, all links go to the sponge recipe, Just thought I'd warn you.</p>
+    <ul>
+        <li>Cake
+            <ul>
+                <li><a href="https://www.allrecipes.com/recipe/17481/simple-white-cake/">Sponge Cake</a></li>
+                <li><a href="https://www.allrecipes.com/recipe/79543/chocolate-cake-iv/">Chocolate Cake</a></li>
+                <li><a href="https://www.allrecipes.com/recipe/24074/red-velvet-cake/">Red Velvet Cake</a></li>
+            </ul>
+        </li>
+        <li>Pie
+            <ul>
+                <li><a href="https://www.allrecipes.com/recipe/12682/apple-pie-by-grandma-ople/">Apple Pie</a></li>
+                <li><a href="https://www.allrecipes.com/recipe/229252/crustless-pumpkin-pie/">Pumpkin Pie</a></li>
+                <li><a href="https://www.allrecipes.com/recipe/229252/crustless-pumpkin-pie/">Pecan Pie</a></li>
+            </ul>
+        </li>
+        <li>Cookies
+            <ul>
+                <li><a href="https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/">Chocolate Chip Cookies</a></li>
+                <li><a href="https://www.allrecipes.com/recipe/10402/oatmeal-raisin-cookies-i/">Oatmeal Raisin Cookies</a></li>
+                <li><a href="https://www.allrecipes.com/recipe/9880/peanut-butter-cookies/">Peanut Butter Cookies</a></li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
+```
+
+list
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Nesting Item</p>
+    <ul>
+        <li type="i">item 1
+            <ul>
+                <li>subitem 1</li>
+                <li>subitem 2
+                    <ul type="a">
+                        <li>sub subitem 1</li>
+                        <li>sub subitem 2</li>
+                    </ul>
+                </li>
+
+            </ul>
+        </li>
+        <li type="i">item 2
+            <ol>
+                <li>subitem 1</li>
+                <ul type="1">
+                    <li>sub subitem 1</li>
+                    <li>sub subitem 2</li>
+                </ul>
+                <li>subitem 2
+                </li>
+            </ol>
+        </li>
+        <li type="i">item 3
+        </li>
+    </ul>
+</body>
+</html>
+```
+
+list
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style='border: 2px solid blue; padding: 10px; width: 200px;'>
+        <ul >
+            <li>Fruit</li>
+            <ul>
+                <li>Bananas</li>
+                <li>Apples</li>
+                <ul>
+                    <li>Green</li>
+                    <li>Red</li>
+                </ul>
+            </ul>
+            <li>Vegetables</li>
+            <li>Meat</li>
+        </ul>
+    </div>
+</body>
+</html>
+```
+
+List
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style='border: 2px solid blue; padding: 10px; width: 200px;'>
+        <ul >
+            <li>Fruit</li>
+            <ul>
+                <li>Bananas</li>
+                <li>Apples</li>
+                <ul>
+                    <li>Green</li>
+                    <li>Red</li>
+                </ul>
+            </ul>
+            <li>Vegetables</li>
+            <li>Meat</li>
+        </ul>
+    </div>
+</body>
+</html>
+```
+
+list
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h6>HTML Lists</h6>
+    <h5>List of students</h5>
+    <ol>
+        <li style="color: red;">John</li>
+        <li style="color: blue;">Harris</li>
+        <li style="color: green;">Plankut</li>
+    </ol>
+</body>
+</html>
