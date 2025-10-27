@@ -1,2 +1,125 @@
 # Frontend-Foundations
 Here i upload my daily frontend excercises and updates through my journey and i want to consistently achieve my goals and show my consistent hardwork through this github repository.
+basic list
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>Brownie</li>
+        <li>Cake</li>
+        <li>Donut</li>
+        <li>Chessecake</li>
+    </ul>
+
+</body>
+</html>
+```
+
+unordered list
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Different Bullets in Unordered Lists</h1>
+    <ul>
+        <li>Ice Cream</li>
+        <li>Cold Coffee</li>
+        <li>Chocoba</li>
+        <li>Chessecake</li>
+    </ul>
+    <ul style="list-style-type:square;">
+        <li>Sugar</li>
+        <li>Salt</li>
+        <li>Sour</li>
+    </ul>
+    <ul>
+        <li>Car</li>
+        <li>Bike</li>
+        <li>Scooty</li>
+    </ul>
+    <ul style="list-style-type:circle">
+        <li>Aeroplane</li>
+        <li>Plane</li>
+        <li>Bus</li>
+    </ul>
+</body>
+</html>
+```
+
+Basic Ordered List
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Top ten dog names in the USA</h1>
+    <ol>
+        <li>Max</li>
+        <li>Jake</li>
+        <li>Maggie</li>
+        <li>Buddy</li>
+        <li>Bear</li>
+        <li>Molly</li>
+        <li>Lady</li>
+        <li>Bailey</li>
+        <li>Shadow</li>
+        <li>Sam</li>
+    </ol>
+</body>
+</html>
+```
+
+HTML List
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Simple Ordered List</h1>
+    <ol type="I">
+        <li>Sri Lanks</li>
+        <li>Japan</li>
+        <li>India</li>
+        <li>USA</li>
+        <li>UK</li>
+    </ol>
+    <ol type="A">
+        <li>Sri Lanks</li>
+        <li>Japan</li>
+        <li>India</li>
+        <li>USA</li>
+        <li>UK</li>
+    </ol>
+    <ol type="a">
+        <li>Sri Lanks</li>
+        <li>Japan</li>
+        <li>India</li>
+        <li>USA</li>
+        <li>UK</li>
+    </ol>
+</body>
+</html>
+```
