@@ -1,0 +1,28 @@
+<!-- Assignment 1: Basic Student Details Table -->
+<table border="1" cellpadding="8" cellspacing="0">
+  <caption><strong>Student Details</strong></caption>
+  <tr>
+    <th>S.No</th>
+    <th>Name</th>
+    <th>Age</th>
+    <th>City</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Ravi</td>
+    <td>20</td>
+    <td>Hyderabad</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Sita</td>
+    <td>21</td>
+    <td>Vijayawada</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Raju</td>
+    <td>19</td>
+    <td>Vizag</td>
+  </tr>
+</table>
