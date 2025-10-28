@@ -49,3 +49,142 @@ css
 .right{
     left: 250px;
 }
+
+
+
+2.Table 
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table border=" black">
+      <caption>
+        Details
+      </caption>
+      <thead>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td>Monkey D</td>
+          <td>Luffy</td>
+          <td>20</td>
+        </tr>
+      </tbody>
+      <!-- <tfoot>
+        <tr>
+          <td colspan="3">Table Footer</td>
+        </tr>
+      </tfoot> -->
+    </table>
+  </body>
+</html>
+
+```
+
+3.Table
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" style="width:100%; text-align: center;">
+        <thead>
+            <tr>
+                <th>Student ID</th>
+                <th>Student Name</th>
+                <th>Gender</th>
+                <th>Age</th>
+                </tr>
+        </thead>
+        <tbody>
+            <tr>
+
+                <td>MonkeyD Clan</td>
+                <td>Luffy</td>
+                <td>Male</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>Roronoa Clan</td>
+                <td>Zoro</td>
+                <td>Male</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>Nami Clan</td>
+                <td>Nami</td>
+                <td>Female</td>
+                <td>20</td> 
+            </tr>
+            <tr>
+                <td>Usopp Clan</td>
+                <td>Usopp</td>  
+                <td>Male</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>Sanji Clan</td>
+                <td>Sanji</td>
+                <td>Male</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>TonyTony Clan</td>
+                <td>Chopper</td>
+                <td>Male</td>
+                <td>17</td> 
+            </tr>
+            <tr>
+                <td>Nico Clan</td>
+                <td>Robin</td>
+                <td>Female</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Franky Clan</td>
+                <td>Franky</td>
+                <td>Male</td>
+                <td>36</td>
+            </tr>
+            <tr>
+                <td>Brook Clan</td>
+                <td>Brook</td>
+                <td>Male</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>Jinbe Clan</td>
+                <td>Jinbe</td>
+                <td>Male</td>
+                <td>46</td>
+            </tr>
+            <tr>
+                <td>Giants Clan</td>
+                <td>Loki</td>
+                <td>Male</td>
+                <td>24</td>
+            </tr>
+        </tbody>
+        
+    </table>
+</body>
+</html>
