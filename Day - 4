@@ -56,3 +56,239 @@
     <td>30</td>
   </tr>
 </table>
+
+<!-- Assignment 3: Employee Salary Table -->
+<table border="1" cellpadding="8" cellspacing="0">
+  <caption><strong>Employee Salary Details</strong></caption>
+  <tr>
+    <th>Emp ID</th>
+    <th>Name</th>
+    <th>Department</th>
+    <th>Salary</th>
+  </tr>
+  <tr>
+    <td>501</td>
+    <td>Krishna</td>
+    <td>HR</td>
+    <td>35,000</td>
+  </tr>
+  <tr>
+    <td>502</td>
+    <td>Swathi</td>
+    <td>IT</td>
+    <td>50,000</td>
+  </tr>
+  <tr>
+    <td>503</td>
+    <td>Manoj</td>
+    <td>Sales</td>
+    <td>30,000</td>
+  </tr>
+</table>
+
+<!-- Assignment 4: College Marks Table -->
+<table border="1" cellpadding="8" cellspacing="0">
+  <caption><strong>College Marks</strong></caption>
+  <tr>
+    <th>Roll No</th>
+    <th>Name</th>
+    <th>Subject</th>
+    <th>Marks</th>
+  </tr>
+  <tr>
+    <td>01</td>
+    <td>Vikram</td>
+    <td>Maths</td>
+    <td>95</td>
+  </tr>
+  <tr>
+    <td>02</td>
+    <td>Divya</td>
+    <td>Physics</td>
+    <td>88</td>
+  </tr>
+  <tr>
+    <td>03</td>
+    <td>Kiran</td>
+    <td>Chemistry</td>
+    <td>91</td>
+  </tr>
+</table>
+
+<!-- Assignment 5: Country and Capital Table -->
+<table border="1" cellpadding="8" cellspacing="0">
+  <caption><strong>Countries and Capitals</strong></caption>
+  <tr>
+    <th>Country</th>
+    <th>Capital</th>
+    <th>Continent</th>
+  </tr>
+  <tr>
+    <td>India</td>
+    <td>New Delhi</td>
+    <td>Asia</td>
+  </tr>
+  <tr>
+    <td>USA</td>
+    <td>Washington D.C.</td>
+    <td>North America</td>
+  </tr>
+  <tr>
+    <td>France</td>
+    <td>Paris</td>
+    <td>Europe</td>
+  </tr>
+</table>
+
+<!-- Assignment 6: Monthly Expenses Table -->
+<table border="1" cellpadding="8" cellspacing="0">
+  <caption><strong>Monthly Expenses</strong></caption>
+  <tr>
+    <th>Category</th>
+    <th>January</th>
+    <th>February</th>
+    <th>March</th>
+  </tr>
+  <tr>
+    <td>Rent</td>
+    <td>10,000</td>
+    <td>10,000</td>
+    <td>10,000</td>
+  </tr>
+  <tr>
+    <td>Groceries</td>
+    <td>4,000</td>
+    <td>3,800</td>
+    <td>4,200</td>
+  </tr>
+  <tr>
+    <td>Utilities</td>
+    <td>2,000</td>
+    <td>2,100</td>
+    <td>1,900</td>
+  </tr>
+</table>
+
+<!-- Assignment 7: Student Marks with Colspan -->
+<table border="1" cellpadding="8" cellspacing="0">
+  <caption><strong>Student Marks Summary</strong></caption>
+  <tr>
+    <th rowspan="2">S.No</th>
+    <th rowspan="2">Name</th>
+    <th colspan="3">Subjects</th>
+    <th rowspan="2">Total</th>
+  </tr>
+  <tr>
+    <th>Maths</th>
+    <th>Science</th>
+    <th>English</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Ravi</td>
+    <td>90</td>
+    <td>85</td>
+    <td>88</td>
+    <td>263</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Priya</td>
+    <td>95</td>
+    <td>89</td>
+    <td>92</td>
+    <td>276</td>
+  </tr>
+</table>
+
+<!-- Assignment 8: Sports Tournament Table with Rowspan -->
+<table border="1" cellpadding="8" cellspacing="0">
+  <caption><strong>Sports Tournament Schedule</strong></caption>
+  <tr>
+    <th rowspan="2">Sport</th>
+    <th colspan="2">Team</th>
+    <th rowspan="2">Venue</th>
+  </tr>
+  <tr>
+    <th>Team A</th>
+    <th>Team B</th>
+  </tr>
+  <tr>
+    <td rowspan="2">Cricket</td>
+    <td>India</td>
+    <td>Australia</td>
+    <td>Chennai</td>
+  </tr>
+  <tr>
+    <td>England</td>
+    <td>South Africa</td>
+    <td>Mumbai</td>
+  </tr>
+  <tr>
+    <td>Football</td>
+    <td>Brazil</td>
+    <td>Argentina</td>
+    <td>Hyderabad</td>
+  </tr>
+</table>
+
+<!-- Assignment 9: Invoice Table -->
+<table border="1" cellpadding="8" cellspacing="0">
+  <caption><strong>Invoice Details</strong></caption>
+  <tr>
+    <th>Item</th>
+    <th>Quantity</th>
+    <th>Unit Price</th>
+    <th>Total</th>
+  </tr>
+  <tr>
+    <td>Keyboard</td>
+    <td>2</td>
+    <td>600</td>
+    <td>1200</td>
+  </tr>
+  <tr>
+    <td>Mouse</td>
+    <td>3</td>
+    <td>400</td>
+    <td>1200</td>
+  </tr>
+  <tr>
+    <td colspan="3" align="right"><strong>Grand Total</strong></td>
+    <td><strong>2400</strong></td>
+  </tr>
+</table>
+
+<!-- Assignment 10: Time Table -->
+<table border="1" cellpadding="8" cellspacing="0">
+  <caption><strong>Weekly Class Time Table</strong></caption>
+  <tr>
+    <th>Day</th>
+    <th>9–10 AM</th>
+    <th>10–11 AM</th>
+    <th>11–12 PM</th>
+    <th>1–2 PM</th>
+  </tr>
+  <tr>
+    <td>Monday</td>
+    <td>Maths</td>
+    <td>Physics</td>
+    <td>Chemistry</td>
+    <td>English</td>
+  </tr>
+  <tr>
+    <td>Tuesday</td>
+    <td>Biology</td>
+    <td>Physics</td>
+    <td>Lab</td>
+    <td>Sports</td>
+  </tr>
+  <tr>
+    <td>Wednesday</td>
+    <td>Maths</td>
+    <td>English</td>
+    <td>Chemistry</td>
+    <td>Library</td>
+  </tr>
+</table>
+
