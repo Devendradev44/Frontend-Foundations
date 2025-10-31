@@ -30,3 +30,129 @@
     <td>2</td>
   </tr>
 </table>
+
+
+<!-- Assignment 12: Sales Report Table -->
+<table border="1" cellpadding="8" cellspacing="0">
+  <caption><strong>Quarterly Sales Report (2025)</strong></caption>
+  <tr>
+    <th>Region</th>
+    <th>Q1</th>
+    <th>Q2</th>
+    <th>Q3</th>
+    <th>Q4</th>
+  </tr>
+  <tr>
+    <td>North</td>
+    <td>1.2 L</td>
+    <td>1.4 L</td>
+    <td>1.5 L</td>
+    <td>1.7 L</td>
+  </tr>
+  <tr>
+    <td>South</td>
+    <td>1.1 L</td>
+    <td>1.3 L</td>
+    <td>1.4 L</td>
+    <td>1.6 L</td>
+  </tr>
+  <tr>
+    <td>East</td>
+    <td>0.9 L</td>
+    <td>1.0 L</td>
+    <td>1.2 L</td>
+    <td>1.3 L</td>
+  </tr>
+</table>
+
+<!-- Assignment 13: Exam Results Table -->
+<table border="1" cellpadding="8" cellspacing="0">
+  <caption><strong>Semester Exam Results</strong></caption>
+  <tr>
+    <th>Roll No</th>
+    <th>Name</th>
+    <th>Subject</th>
+    <th>Marks</th>
+    <th>Result</th>
+  </tr>
+  <tr>
+    <td>001</td>
+    <td>Harsha</td>
+    <td>Maths</td>
+    <td>92</td>
+    <td>Pass</td>
+  </tr>
+  <tr>
+    <td>002</td>
+    <td>Sindhu</td>
+    <td>Science</td>
+    <td>85</td>
+    <td>Pass</td>
+  </tr>
+  <tr>
+    <td>003</td>
+    <td>Rohit</td>
+    <td>English</td>
+    <td>55</td>
+    <td>Fail</td>
+  </tr>
+</table>
+
+
+<!-- Assignment 14: Bus Schedule Table -->
+<table border="1" cellpadding="8" cellspacing="0">
+  <caption><strong>City Bus Schedule</strong></caption>
+  <tr>
+    <th>Bus No</th>
+    <th>From</th>
+    <th>To</th>
+    <th>Departure Time</th>
+    <th>Arrival Time</th>
+  </tr>
+  <tr>
+    <td>101</td>
+    <td>Kukatpally</td>
+    <td>Ameerpet</td>
+    <td>07:00 AM</td>
+    <td>07:45 AM</td>
+  </tr>
+  <tr>
+    <td>202</td>
+    <td>Dilsukhnagar</td>
+    <td>Secunderabad</td>
+    <td>08:30 AM</td>
+    <td>09:15 AM</td>
+  </tr>
+  <tr>
+    <td>303</td>
+    <td>Uppal</td>
+    <td>KPHB</td>
+    <td>06:45 PM</td>
+    <td>07:30 PM</td>
+  </tr>
+</table>
+
+<!-- Assignment 15: Restaurant Menu Table -->
+<table border="1" cellpadding="8" cellspacing="0">
+  <caption><strong>Restaurant Menu</strong></caption>
+  <tr>
+    <th>Item Name</th>
+    <th>Category</th>
+    <th>Price (₹)</th>
+  </tr>
+  <tr>
+    <td>Paneer Butter Masala</td>
+    <td>Main Course</td>
+    <td>180</td>
+  </tr>
+  <tr>
+    <td>Veg Biryani</td>
+    <td>Main Course</td>
+    <td>150</td>
+  </tr>
+  <tr>
+    <td>Gulab Jamun</td>
+    <td>Dessert</td>
+    <td>80</td>
+  </tr>
+</table>
