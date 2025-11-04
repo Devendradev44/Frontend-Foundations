@@ -304,3 +304,138 @@
 </body>
 </html>
 
+🧾 1. Basic HTML Form
+
+(First name, Last name, Email, Gender, Submit/Reset)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Form</title>
+</head>
+<body>
+  <h1>HTML form</h1>
+  <form>
+    <label>First name:</label>
+    <input type="text" name="fname"><br><br>
+
+    <label>Last name:</label>
+    <input type="text" name="lname"><br><br>
+
+    <label>E-mail:</label>
+    <input type="email" name="email"><br><br>
+
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female<br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
+</body>
+</html>
+
+🧾 2. Feedback Form
+
+(Checkboxes + Radio buttons + File upload + Select dropdown)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Feedback Form</title>
+</head>
+<body>
+  <h2>My feedback form</h2>
+  <form>
+    <p>Name: <input type="text" name="name" required></p>
+    <p>Email: <input type="email" name="email" required></p>
+    <p>Password: <input type="password" name="pwd" required></p>
+
+    <p>Please check all the emotions that apply to you:</p>
+    <ul>
+      <li><input type="checkbox"> Angry</li>
+      <li><input type="checkbox"> Sad</li>
+      <li><input type="checkbox"> Happy</li>
+      <li><input type="checkbox"> Ambivalent</li>
+    </ul>
+
+    <p>How satisfied were you with our service?</p>
+    <ul>
+      <li><input type="radio" name="satisfaction"> Very satisfied</li>
+      <li><input type="radio" name="satisfaction"> Satisfied</li>
+      <li><input type="radio" name="satisfaction"> Didn’t care</li>
+      <li><input type="radio" name="satisfaction"> Dissatisfied</li>
+      <li><input type="radio" name="satisfaction"> Very dissatisfied</li>
+    </ul>
+
+    <p>Further comments:<br>
+      <textarea rows="3" cols="30"></textarea>
+    </p>
+
+    <p>Bio photo: <input type="file"></p>
+    <p>Location visited:
+      <select>
+        <option>Select location</option>
+        <option>Hyderabad</option>
+        <option>Delhi</option>
+        <option>Mumbai</option>
+      </select>
+    </p>
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
+
+🧾 3. Registration Form with Validation
+
+(First name, Last name, Password, Gender, Interests, etc.)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+</head>
+<body>
+  <h2>Registration Form</h2>
+  <form>
+    <p>Enter Firstname: <input type="text" required></p>
+    <p>Enter Lastname: <input type="text" required></p>
+
+    <p>Enter Password: <input type="password" required></p>
+    <p>Confirm Password: <input type="password" required></p>
+
+    <p>Gender:
+      <input type="radio" name="gender" value="male"> Male
+      <input type="radio" name="gender" value="female"> Female
+      <input type="radio" name="gender" value="others"> Others
+    </p>
+
+    <p>Interests:
+      <input type="checkbox" value="movies"> Movies
+      <input type="checkbox" value="cricket"> Cricket
+      <input type="checkbox" value="music"> Music
+      <input type="checkbox" value="sports"> Sports
+    </p>
+
+    <p>Nationality:
+      <select>
+        <option>Indian</option>
+        <option>American</option>
+        <option>British</option>
+      </select>
+    </p>
+
+    <p>Address:<br>
+      <textarea rows="3" cols="30"></textarea>
+    </p>
+
+    <input type="submit" value="Register Here">
+  </form>
+</body>
+</html>
