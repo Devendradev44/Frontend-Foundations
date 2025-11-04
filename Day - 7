@@ -79,3 +79,228 @@
   </form>
 </body>
 </html>
+
+🧩 1. Web page with Username, Password, and Task (with placeholders)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Task Form</title>
+</head>
+<body>
+  <h2>Task Login Form</h2>
+  <form>
+    <label>Username:</label><br>
+    <input type="text" placeholder="Enter your username" required><br><br>
+
+    <label>Password:</label><br>
+    <input type="password" placeholder="Enter your password" required><br><br>
+
+    <label>Task:</label><br>
+    <input type="text" placeholder="Enter your task" required><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
+
+🧩 2. Registration Page
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Page</title>
+</head>
+<body>
+  <h2>Registration Form</h2>
+  <form>
+    <label>Name:</label><br>
+    <input type="text" required><br><br>
+
+    <label>Password:</label><br>
+    <input type="password" required><br><br>
+
+    <label>Confirm Password:</label><br>
+    <input type="password" required><br><br>
+
+    <label>Gender:</label><br>
+    <input type="radio" name="gender" value="Male" required> Male
+    <input type="radio" name="gender" value="Female"> Female<br><br>
+
+    <label>Contact Information:</label><br>
+    <input type="text" placeholder="Phone or Email" required><br><br>
+
+    <label>Address:</label><br>
+    <textarea rows="3" cols="30" required></textarea><br><br>
+
+    <input type="submit" value="Register">
+  </form>
+</body>
+</html>
+
+🧩 3. Alert if Both Fields are Empty
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Empty Field Check</title>
+  <script>
+    function checkFields() {
+      let field1 = document.getElementById("f1").value;
+      let field2 = document.getElementById("f2").value;
+
+      if (field1 === "" || field2 === "") {
+        alert("Please fill in both fields!");
+        return false;
+      }
+      return true;
+    }
+  </script>
+</head>
+<body>
+  <h2>Enter Values</h2>
+  <form onsubmit="return checkFields()">
+    <input type="text" id="f1" placeholder="Enter first value"><br><br>
+    <input type="text" id="f2" placeholder="Enter second value"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
+
+🧩 4. Image as Button
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Button</title>
+</head>
+<body>
+  <h2>Submit Using an Image Button</h2>
+  <form>
+    <input type="text" placeholder="Enter name"><br><br>
+    <input type="image" src="https://cdn-icons-png.flaticon.com/512/84/84510.png" alt="Submit" width="50" height="50">
+  </form>
+</body>
+</html>
+
+🧩 5. Text and Password Field with Button
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text and Password Example</title>
+</head>
+<body>
+  <h2>Login Form</h2>
+  <form>
+    Username: <input type="text"><br><br>
+    Password: <input type="password"><br><br>
+    <button type="submit">Login</button>
+  </form>
+</body>
+</html>
+
+🧩 6. Difference Between Radio Buttons and Checkboxes
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Radio vs Checkbox</title>
+</head>
+<body>
+  <h2>Radio Buttons vs Checkboxes</h2>
+
+  <h3>Radio Buttons (select one):</h3>
+  <input type="radio" name="gender"> Male
+  <input type="radio" name="gender"> Female
+
+  <h3>Checkboxes (select multiple):</h3>
+  <input type="checkbox"> Reading
+  <input type="checkbox"> Sports
+  <input type="checkbox"> Music
+</body>
+</html>
+
+🧩 7. Select Box Example
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Select Box Example</title>
+</head>
+<body>
+  <h2>Select Your Country</h2>
+  <form>
+    <select>
+      <option>--Select Country--</option>
+      <option>India</option>
+      <option>USA</option>
+      <option>UK</option>
+      <option>Canada</option>
+    </select>
+  </form>
+</body>
+</html>
+
+🧩 8. Fieldset Group Example
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fieldset Example</title>
+</head>
+<body>
+  <form>
+    <fieldset>
+      <legend>Personal Information</legend>
+      Name: <input type="text"><br><br>
+      Age: <input type="number"><br><br>
+      Gender: 
+      <input type="radio" name="g"> Male
+      <input type="radio" name="g"> Female
+    </fieldset>
+  </form>
+</body>
+</html>
+
+🧩 9. File Upload Example
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>File Upload</title>
+</head>
+<body>
+  <h2>Upload Your File</h2>
+  <form>
+    <input type="file" name="upload">
+  </form>
+</body>
+</html>
+
+🧩 10. Action Attribute Usage
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Action Example</title>
+</head>
+<body>
+  <h2>Action Attribute Demo</h2>
+  <form action="thankyou.html" method="get">
+    Name: <input type="text" name="username"><br><br>
+    <input type="submit" value="Go">
+  </form>
+</body>
+</html>
+
