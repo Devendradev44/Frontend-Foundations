@@ -1,0 +1,81 @@
+1. Create a webpage to display form, with all fields mandatory, when the page is loaded the name field is focused first. When the user clicks on ‘send my order’ button, a message ‘order is placed successfully’ must be displayed on the next web page. 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f4f8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    form {
+      background-color: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 350px;
+    }
+    h2 {
+      text-align: center;
+      color: #2a5298;
+    }
+    label {
+      font-weight: bold;
+      display: block;
+      margin-top: 10px;
+    }
+    input, select {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      width: 100%;
+      background-color: #2a5298;
+      color: white;
+      padding: 10px;
+      margin-top: 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #1e3c72;
+    }
+  </style>
+</head>
+<body onload="document.getElementById('name').focus()">
+  <form action="order-success.html" method="get">
+    <h2>Place Your Order</h2>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="product">Product:</label>
+    <select id="product" name="product" required>
+      <option value="">--Select Product--</option>
+      <option value="Laptop">Laptop</option>
+      <option value="Phone">Phone</option>
+      <option value="Tablet">Tablet</option>
+    </select>
+
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" name="quantity" min="1" required>
+
+    <button type="submit">Send My Order</button>
+  </form>
+</body>
+</html>
