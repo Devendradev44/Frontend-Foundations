@@ -111,3 +111,209 @@ The submit button is outside the form but linked using form="infoForm".
 
 
 Attributes used: action, method, target, enctype, autocomplete, novalidate, required.
+
+
+🧾 1. Form Attributes Example – Name / Value Table
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Attributes Example</title>
+  <style>
+    table { border-collapse: collapse; }
+    td, th { border: 1px solid #999; padding: 8px; }
+  </style>
+</head>
+<body>
+  <h3>Form Attributes Example</h3>
+  <form>
+    <table>
+      <tr><th>Name</th><th>Value</th></tr>
+      <tr><td>Name</td>
+          <td><input type="text" name="name"></td></tr>
+      <tr><td>Sex</td>
+          <td><input type="radio" name="sex"> Male
+              <input type="radio" name="sex"> Female</td></tr>
+      <tr><td>Eye color</td>
+          <td>
+            <select>
+              <option>Green</option>
+              <option>Brown</option>
+              <option>Blue</option>
+            </select>
+          </td></tr>
+      <tr><td>Check all that apply</td>
+          <td>
+            <input type="checkbox"> Over 6 feet tall <br>
+            <input type="checkbox"> Over 200 pounds
+          </td></tr>
+      <tr><td>Describe your athletic ability</td>
+          <td><textarea rows="3" cols="25"></textarea></td></tr>
+    </table><br>
+    <input type="submit" value="Enter my information">
+  </form>
+</body>
+</html>
+
+🧾 2. Novell Services Login
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Novell Services Login</title>
+</head>
+<body>
+  <h3>Novell Services Login</h3>
+  <form>
+    Username: <input type="text"><br><br>
+    Password: <input type="password"><br><br>
+    City of Employment: <input type="text"><br><br>
+    Web server:
+    <select>
+      <option>Choose a server</option>
+      <option>Server 1</option>
+      <option>Server 2</option>
+    </select><br><br>
+
+    Please specify your role:<br>
+    <input type="radio" name="role"> Admin <br>
+    <input type="radio" name="role"> Engineer <br>
+    <input type="radio" name="role"> Manager <br>
+    <input type="radio" name="role"> Guest <br><br>
+
+    Single sign-on to the following:<br>
+    <input type="checkbox"> Mail 
+    <input type="checkbox"> Payroll 
+    <input type="checkbox"> Self-service <br><br>
+
+    <input type="submit" value="Login">
+    <input type="reset" value="Reset">
+  </form>
+</body>
+</html>
+
+🧾 3. Simple Event Registration
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Event Registration</title>
+</head>
+<body>
+  <h2>Simple Event Registration</h2>
+  <p>Fill out the form to register to our event</p>
+
+  <form>
+    <label>Name</label><br>
+    <input type="text" placeholder="First Name">
+    <input type="text" placeholder="Last Name"><br><br>
+
+    <label>Title</label><br>
+    <input type="text"><br><br>
+
+    <label>Company</label><br>
+    <input type="text"><br><br>
+
+    <label>E-mail</label><br>
+    <input type="email" placeholder="ex: myname@example.com"><br><br>
+
+    <label>Phone Number</label><br>
+    (<input type="text" size="3" maxlength="3">) – 
+    <input type="text" size="7" maxlength="7"><br><br>
+
+    <label>Are you an existing customer?</label><br>
+    <input type="radio" name="existing" value="yes"> Yes 
+    <input type="radio" name="existing" value="no"> No <br><br>
+
+    <input type="submit" value="Register">
+  </form>
+</body>
+</html>
+
+🧾 4. Request for White Paper
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Request for White Paper</title>
+</head>
+<body>
+  <h2>Request for White Paper</h2>
+  <p>Please fill out the form below. If you have any questions, please e-mail <a href="mailto:whitepaper@tekfrom.com">whitepaper@tekfrom.com</a>.</p>
+  <p>* – required fields</p>
+
+  <form>
+    *First Name: <input type="text" required><br><br>
+    *Last Name: <input type="text" required><br><br>
+    Company Name: <input type="text"><br><br>
+    Company/Personal Website: <input type="url"><br><br>
+    *Email: <input type="email" required><br><br>
+    Phone: <input type="tel"> Ext: <input type="text" size="4"><br><br>
+    State/Province:
+    <select>
+      <option>Select for USA or Canada only</option>
+      <option>California</option>
+      <option>Texas</option>
+      <option>Ontario</option>
+    </select><br><br>
+    *Country:
+    <select>
+      <option>United States</option>
+      <option>Canada</option>
+      <option>India</option>
+    </select><br><br>
+    Comments:<br>
+    <textarea rows="3" cols="40"></textarea><br><br>
+    <input type="submit" value="Request White Paper">
+  </form>
+</body>
+</html>
+
+🧾 5. User Registration Form Demo (Validated Using JavaScript)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Registration Form Demo</title>
+  <script>
+    function validateForm() {
+      let email = document.getElementById("email").value;
+      let reemail = document.getElementById("reemail").value;
+      if (email !== reemail) {
+        alert("Emails do not match!");
+        return false;
+      }
+      return true;
+    }
+  </script>
+</head>
+<body>
+  <h2>User Registration Form Demo</h2>
+  <p>Form Validated Using JavaScript</p>
+
+  <form onsubmit="return validateForm()">
+    <input type="text" placeholder="First Name" required>
+    <input type="text" placeholder="Last Name" required><br><br>
+
+    <input type="email" id="email" placeholder="Your Email" required><br><br>
+    <input type="email" id="reemail" placeholder="Re-enter Email" required><br><br>
+
+    <input type="password" placeholder="New Password" required><br><br>
+
+    Birthday: 
+    <select><option>Month</option></select>
+    <select><option>Day</option></select>
+    <select><option>Year</option></select><br><br>
+
+    <input type="radio" name="gender"> Female
+    <input type="radio" name="gender"> Male<br><br>
+
+    <button type="submit">Sign Up</button>
+  </form>
+</body>
+</html>
