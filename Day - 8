@@ -1,0 +1,157 @@
+🧠 JavaScript Declaration Assignments
+1️⃣ Declare 4 variables in the same line
+let a = 10, b = 20, c = 30, d = 40;
+console.log(a, b, c, d);
+
+
+✅ You can declare and initialize multiple variables separated by commas.
+
+2️⃣ Find the wrong variable naming conventions
+// ✅ Correct
+let firstName;
+let _age;
+let $price;
+let totalMarks;
+
+// ❌ Incorrect
+let 1name;         // ❌ starts with number
+let my-name;       // ❌ hyphen not allowed
+let var;           // ❌ reserved keyword
+let first name;    // ❌ space not allowed
+
+
+✅ Variables can only start with a letter, _, or $ — and cannot use reserved words.
+
+3️⃣ What happens if we declare the same variable name multiple times
+var x = 10;
+var x = 20;  // ✅ allowed with 'var'
+console.log(x); // Output: 20
+
+let y = 10;
+// let y = 20; // ❌ Error: Identifier 'y' has already been declared
+
+
+🧩 var allows redeclaration;
+let and const do not.
+
+4️⃣ What happens if we assign value to an undeclared variable
+x = 100;
+console.log(x);
+
+
+✅ Works, but creates a global variable implicitly (bad practice).
+If you use "use strict";, it will throw an error.
+
+5️⃣ What error occurs by printing undeclared variable
+console.log(a);
+
+
+❌ Error:
+
+ReferenceError: a is not defined
+
+6️⃣ Declare a variable with string literal using single and double quotes
+let name1 = 'Edupoly';
+let name2 = "Hyderabad";
+console.log(name1, name2);
+
+
+✅ Both ' ' and " " work for strings in JavaScript.
+
+7️⃣ Declare a variable in script.html
+
+script.html
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Script Variable</title>
+</head>
+<body>
+  <script>
+    let course = "JavaScript";
+  </script>
+</body>
+</html>
+
+8️⃣ Print the variable value in script.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Print Variable</title>
+</head>
+<body>
+  <script>
+    let course = "JavaScript";
+    document.write(course);
+  </script>
+</body>
+</html>
+
+
+✅ Output on webpage →
+JavaScript
+
+9️⃣ Declare two variables and print the addition.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Addition Example</title>
+</head>
+<body>
+  <script>
+    let a = 10, b = 20;
+    let sum = a + b;
+    document.write("Sum = " + sum);
+  </script>
+</body>
+</html>
+
+
+✅ Output: Sum = 30
+
+🔟 Declare a variable with string literal.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>String Literal Example</title>
+</head>
+<body>
+  <script>
+    let message = "Welcome to Edupoly";
+    document.write(message);
+  </script>
+</body>
+</html>
+
+11️⃣ Program: Read first name, last name & year of birth
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Display Name and Year</title>
+</head>
+<body>
+  <script>
+    let firstName = prompt("Input your firstname:");
+    let lastName = prompt("Input your lastname:");
+    let year = prompt("Input your year of birth:");
+    document.write(firstName + " " + lastName + " born on " + year);
+  </script>
+</body>
+</html>
+
+
+✅ Example Output:
+
+Tom Davis born on 1982
+
+✅ Summary Table
+Task	Key Concept	Example
+Declare multiple vars	let a=1,b=2,c=3	Multiple assignment
+Invalid names	Reserved words, numbers first	let 1x ❌
+Redeclare variable	Allowed for var only	var a=1; var a=2;
+Undeclared variable	Becomes global	x=5;
+Print undeclared var	ReferenceError	console.log(y)
+String literals	'Edupoly' / "Edupoly"	✅
+Prompt input	prompt("Enter name")	User input
+Output	console.log() or document.write()	Display data
