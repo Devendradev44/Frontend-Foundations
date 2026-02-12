@@ -1,0 +1,108 @@
+# 🚀 Daily Learning Journal
+
+Welcome to my Daily Learning Repository!  
+This repository is where I document my daily progress as I improve my programming and software development skills.
+
+---
+
+## 📅 Day 01 – Linters, Formatters & Memory Management in JavaScript
+
+---
+
+## 🔍 What Are Linters?
+
+A **linter** is a static code analysis tool that helps identify:
+
+- Programming errors
+- Bugs
+- Undefined variables
+- Style violations
+- Suspicious code patterns
+
+Example:
+
+```js
+function doSomething(x) {
+  return x + z;
+}
+🔎 ESLint would flag:
+
+z is not defined
+
+Missing semicolon (depending on config)
+
+Linters help maintain clean and error-free code across teams.
+
+🎨 What Are Formatters?
+
+A formatter automatically formats code according to a consistent style guide.
+
+Popular JavaScript formatter: Prettier
+
+Before Formatting:
+function longFunction(argument1,argument2,argument3){return argument1+argument2+argument3;}
+
+After Formatting:
+function longFunction(argument1, argument2, argument3) {
+  return argument1 + argument2 + argument3;
+}
+
+
+✅ Benefits:
+
+Consistent code style
+
+Cleaner pull requests
+
+Faster code reviews
+
+Saves time
+
+🧠 Memory Management in JavaScript
+
+Memory management is the process of:
+
+Allocating memory when needed
+
+Releasing memory when no longer needed
+
+In JavaScript, memory management is automatic.
+
+The JavaScript engine handles:
+
+Memory allocation
+
+Garbage collection
+
+♻️ What Is Garbage Collection?
+
+Garbage collection is the process where JavaScript automatically frees memory that is no longer accessible in the program.
+
+⚠️ Example of Memory Being Retained (Closure)
+function createLargeArray() {
+  let largeArray = new Array(1000000);
+
+  return function () {
+    console.log(largeArray.length);
+  };
+}
+
+let printArrayLength = createLargeArray();
+printArrayLength();
+
+
+Even after createLargeArray() finishes executing, largeArray remains in memory because the returned function still references it.
+
+This is called a closure.
+
+📌 Key Takeaways
+
+Linters help catch errors and enforce coding standards.
+
+Formatters maintain consistent code style.
+
+JavaScript automatically manages memory.
+
+Garbage collection frees unused memory.
+
+Closures can retain memory if not handled carefully.
