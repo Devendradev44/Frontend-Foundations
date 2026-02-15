@@ -1,0 +1,49 @@
+🚀 JavaScript Algorithm Practice – Day Streak
+
+This repository contains solutions to basic JavaScript algorithm challenges.
+The goal is to strengthen problem-solving skills and maintain a daily GitHub streak.
+
+📌 Problems Solved
+1️⃣ Reverse a String
+
+Reverse a given string using different approaches.
+
+function reverseString(str) {
+  return str.split('').reverse().join('');
+}
+
+2️⃣ Largest Number in Sub-Arrays
+
+Return the largest number from each sub-array.
+
+function largestOfAll(arr) {
+  let result = [];
+
+  for (let i = 0; i < arr.length; i++) {
+    let largest = arr[i][0];
+
+    for (let j = 1; j < arr[i].length; j++) {
+      if (arr[i][j] > largest) {
+        largest = arr[i][j];
+      }
+    }
+
+    result.push(largest);
+  }
+
+  return result;
+}
+
+3️⃣ First Element Finder (Truth Test)
+
+Return the first element in an array that passes a test function.
+
+function findElement(arr, func) {
+  for (let i = 0; i < arr.length; i++) {
+    if (func(arr[i])) {
+      return arr[i];
+    }
+  }
+
+  return undefined;
+}
